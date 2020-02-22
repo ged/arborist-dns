@@ -1,7 +1,7 @@
-.simplecov
-ChangeLog
+History.md
+LICENSE.txt
 README.md
-Rakefile
+lib/arborist/dns.rb
 lib/arborist/monitor/dns.rb
-spec/arborist/monitor/dns_spec.rb
-spec/spec_helper.rb
+lib/arborist/node/dnsdomain.rb
+lib/arborist/node/dnsrecord.rb

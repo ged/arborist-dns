@@ -5,6 +5,7 @@ require 'simplecov' if ENV['COVERAGE']
 
 require 'rspec'
 
+require 'arborist/dns'
 require 'loggability/spechelpers'
 
 
@@ -16,6 +17,8 @@ RSpec.configure do |config|
 	config.mock_with( :rspec ) do |mock|
 		mock.syntax = :expect
 	end
+
+	config.include( Loggability::SpecHelpers )
 end
 
 

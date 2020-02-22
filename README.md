@@ -1,21 +1,21 @@
-# Arborist-Monitor-DNS
+# Arborist-DNS
 
 home
-: http://deveiate.org/projects/Arborist-Monitor-DNS
+: http://hg.sr.ht/~ged/Arborist-DNS
 
 code
-: http://bitbucket.org/ged/Arborist-Monitor-DNS
+: http://hg.sr.ht/~ged/Arborist-DNS
 
 github
-: https://github.com/ged/arborist-monitor-dns
+: https://github.com/ged/arborist-dns
 
 docs
-: http://deveiate.org/code/arborist-monitor-dns
+: http://deveiate.org/code/arborist-dns
 
 
 ## Description
 
-
+DNS Monitor and Node classes for Arborist. It can be used to monitor domain registration as well as individual DNS records.
 
 
 ## Prerequisites
@@ -25,26 +25,30 @@ docs
 
 ## Installation
 
-    $ gem install arborist-monitor-dns
+    $ gem install arborist-dns
 
 
 ## Contributing
 
 You can check out the current development source with Mercurial via its
-{project page}[http://bitbucket.org/ged/arborist-monitor-dns]. Or if you prefer Git, via 
-{its Github mirror}[https://github.com/ged/arborist-monitor-dns].
+[project page](https://hg.sr.ht/~ged/arborist-dns). Or if you prefer Git, via
+[its Github mirror](https://github.com/ged/arborist-dns).
 
 After checking out the source, run:
 
-    $ rake newb
+    $ rake setup
 
-This task will install any missing dependencies, run the tests/specs,
-and generate the API documentation.
+This task will install dependencies and do any other required developer setup.
+
+
+## Authors
+
+- Michael Granger <ged@faeriemud.org>
 
 
 ## License
 
-Copyright (c) 2017, Michael Granger
+Copyright (c) 2017-2020, Michael Granger
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
