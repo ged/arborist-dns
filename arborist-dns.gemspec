@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# stub: arborist-dns 0.1.0.pre.20200221175259 ruby lib
+# stub: arborist-dns 0.1.0.pre.20200221175755 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "arborist-dns".freeze
-  s.version = "0.1.0.pre.20200221175259"
+  s.version = "0.1.0.pre.20200221175755"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   end
 
   if s.respond_to? :add_runtime_dependency then
+    s.add_runtime_dependency(%q<arborist>.freeze, ["~> 0.5"])
     s.add_runtime_dependency(%q<loggability>.freeze, ["~> 0.15"])
     s.add_runtime_dependency(%q<whois>.freeze, ["~> 4.0"])
     s.add_runtime_dependency(%q<whois-parser>.freeze, ["~> 1.0"])
@@ -30,6 +31,7 @@ Gem::Specification.new do |s|
     s.add_development_dependency(%q<simplecov>.freeze, ["~> 0.7"])
     s.add_development_dependency(%q<rdoc-generator-fivefish>.freeze, ["~> 0.3"])
   else
+    s.add_dependency(%q<arborist>.freeze, ["~> 0.5"])
     s.add_dependency(%q<loggability>.freeze, ["~> 0.15"])
     s.add_dependency(%q<whois>.freeze, ["~> 4.0"])
     s.add_dependency(%q<whois-parser>.freeze, ["~> 1.0"])
